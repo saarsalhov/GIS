@@ -1,15 +1,59 @@
 .Home {
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    height: 100vh;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    background-color: #ffffff;
-  }
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  grid-gap: 20px;
+  grid-gap: 20px;
+  grid-gap: 20px;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
 
 .ifrMap {
-    width: 100%; height: 100%; border: none;
+  width: 80%; height: 80%; border: none;
+}
+
+.map {
+  top: 100px;
+  width: 1046px;
+  height: 670px;
+  border: none;
+}
+
+.mapButton{
+  text-align: center;
+  float: left;
+  background-color: rgb(89, 81, 81);
+  margin-right: 50px;
+  width: 150px;
+  line-height: 30px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  border-radius: 5px;
+}
+
+.mapButton:hover{
+  text-decoration: none;
+  color: #000000;
+  background-color: rgba(163, 200, 254, 0.65);
+}
+
+.buttons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: baseline;
+  justify-items: left;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
