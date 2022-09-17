@@ -79,7 +79,7 @@ export default function LogIn() {
                 <div className="input-container">
                     <label>Email </label>
                     <input type="text"
-                           placeholder="Enter username"
+                           placeholder="exp@example.com"
                            value={userName}
                            onChange={handleChangeUserName}
                            required/>

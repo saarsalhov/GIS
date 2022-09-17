@@ -167,7 +167,7 @@ export default function SignUp() {
             <label>Email </label>
             <input type="text"
                    value={userEmail}
-                   placeholder="Enter Email"
+                   placeholder="exp@example.com"
                    required
                    onChange={handleChangeEmail}/>
             {errorEmail && <Form.Text className="error" >{errorEmail}</Form.Text>}
